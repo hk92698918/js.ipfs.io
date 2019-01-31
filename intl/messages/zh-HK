@@ -1,0 +1,152 @@
+{
+  “notFoundPage”：{
+    “主要信息”： ””，
+    “detailedMessage”：“”
+  },
+  “鈕扣”： {
+    "buttonLearnMore": "了解更多",
+    “buttonGithub”：“Github”，
+    “buttonTwitter”：“Twitter”，
+    "buttonIrcFreenode": "IRC聊天頻道"
+  },
+
+  “navBar”：{
+    "item1": "入門指南",
+    "item2": "教程",
+    “item3”：“API”，
+    "item4": "源代碼"
+  },
+
+  “英雄”： {
+    "welcomeMessage": "一個完全使用JavaScript編寫的完整版的P2P協議",
+    "textDescription": "js-ipfs為在瀏覽器中直接使用IPFS協議奠定了基礎。 它完全使用JavaScript編寫，可以運行在瀏覽器、Service Worker、瀏覽器插件和Node.js中，為應用打開了通往各種可能性的大門。",
+    "currentVersion": "當前版本：{version}",
+    "latestUpdate": "最近更新：{date}",
+    "downloadsLastMonth": "最近一個月的下載量：{count}",
+    "errorPckMessage": "無法獲取IPFS數據包。",
+    “animationButton”：{
+      “啟用”：“啟用動畫”，
+      “禁用”：“禁用動畫”
+    }
+  },
+
+  “banner”：{
+    "highlightMessage": " js-ipfs庫當前為Alpha版本。",
+    "message": "代碼庫未經安全專家審核，請勿用於存儲、共享或者發布敏感信息。"
+  },
+
+  “特徵”： {
+    "sectionTitle": "功能特性",
+    "sectionDesc": "js-ipfs實現你所了解和喜愛的IPFS的全部功能。同時，還專門為瀏覽器開發了特有功能，js-ipfs為分佈式web應用開發提供了強大的工具支持。",
+    “清單”：[
+      {
+        "title": "運行在Node.js和瀏覽器中",
+        "desc": "js-ipfs在Node.js，Electron和任何現代瀏覽器上開箱即用。 同時，它可以通過定制化設計滿足您的個性化使用需求。"
+      },
+      {
+        "title": "實現完整的IPFS技術棧",
+        "desc": "js-ipfs不是一個輕量級的客戶端，它完整的實現了IPFS協議的全部功能，沒有任何功能被遺漏。"
+      },
+      {
+        "title": "利用PubSub功能與其它節點進行實時通信",
+        "desc": "IPFS節點基於興趣主題創建網絡拓撲結構，以實時廣播相關事件。"
+      },
+      {
+        "title": "從IPFS網絡中的任何位置添加和檢索文件",
+        "desc": "IPFS旨在利用內容尋址和進程尋址的強大功能來查找網絡中包含您要查找內容的節點並進行數據檢索。 其它節點也可以以同樣的方式找到您添加的任何數據。 "
+      },
+      {
+        "title": "利用DAG API遍歷任意哈希鏈數據結構",
+        "desc": "IPFS使用[IPLD](https://ipld.io/)（星際鏈接數據模型）使您能夠與多種數據源（如git，區塊鍊等）的數據進行交互。"
+      },
+      {
+        "title": "內建libp2p功能",
+        "desc": "[libp2p](https://libp2p.io/)是一個模塊化網絡棧。它是為IPFS所開發的網絡層功能，現在您可以通過IPFS在應用程序中直接使用。"
+      },
+      {
+        "title": "作為守護程序運行",
+        "desc": "js-ipfs也可以作為守護進程運行，以便您可以使用已經熟悉的HTTP API（源自於go-ipfs）與其進行交互。"
+      },
+      {
+        "title": "為可變數據創建固定地址",
+        "desc": "利用IPNS（星際命名系統），在身份驗證和認證的基礎上，通過創建可變指針（記錄）的方式來發佈內容更新。"
+      }
+    ]
+  },
+
+  “入門”： {
+    "sectionTitle": "入門指南",
+    "sectionDesc": "IPFS為分佈式web上的數據提供了內容尋址。通過CID（內容識別符）使數據在網絡上可用或者獲取現有數據。試一下！",
+    "addDataToIPFS": "添加數據到IPFS",
+    "output": "輸出結果",
+    "getDataFromIPFS": "從IPFS獲取數據",
+    "usingJavascript": "在瀏覽器或者Node.js中使用JavaScript",
+    "usingCli": "使用CLI",
+    "usingGateway": "使用HTTP網關"
+  },
+
+  “serviceWorker”：{
+    “sectionTitle”：“服務工人網關”，
+    "sectionDesc": "無需借助任何服務器，也無需使用HTTP從IPFS網絡獲取內容即可將此頁面轉換為完整的IPFS網關！ 是的，你沒看錯，帶有js-ipfs的Service Worker網關可以直接連接到IPFS網絡。",
+    "activationSuccessTitle": "恭喜！ 您的瀏覽器現在是一個完全可用的IPFS網關",
+    "activationSuccessText": "與使用https://gateway.ipfs.io網關一樣，您可以從IPFS裡面下載任何數據。試試下面的例子:\n- [ipfs.io - /ipfs/QmYNQJoKGNHTpPxCBPh9KkDpaExgd2duMa3aF6ytMpHdao](https: //js.ipfs.io/ipfs/QmYNQJoKGNHTpPxCBPh9KkDpaExgd2duMa3aF6ytMpHdao)\n- [js.ipfs.io - /ipfs/QmcF7aJ2pXUv4ujGa1modsbJwWwX4xidDUJsK4RgeK5eWw](https://js.ipfs.io/ipfs/QmcF7aJ2pXUv4ujGa1modsbJwWwX4xidDUJsK4RgeK5eWw)\n- [awesome.ipfs. io - /ipfs/Qmcwy9pCEeyhj7rwSRtoAHVDskWpTumjbgLSBsS24PMY54](https://js.ipfs.io/ipfs/Qmcwy9pCEeyhj7rwSRtoAHVDskWpTumjbgLSBsS24PMY54)\n - [peerpad.net - /ipfs/QmXRTzu4dUFnA1nLR7ogifE1EeY2hEsVyQNkZu4CzF6g2v](https://js.ipfs.io/ipfs/QmXRTzu4dUFnA1nLR7ogifE1EeY2hEsVyQNkZu4CzF6g2v) \n\n通過下面的鏈接地址試一下其它哈希值https://js.ipfs.io/ipfs/<你的哈希值>",
+    “toggleText”：“啟用服務工作者”，
+    "activatingToggleText": "正在激活Service Worker...",
+    "activationErrorMessage": "啟用Service Worker時發生錯誤。",
+    "deactivationErrorMessage": "禁用Service Worker時發生錯誤。",
+    "nonRootScopeWarningMessage": "當前頁面無法激活Service Worker。 請嘗試從https://js.ipfs.io 激活",
+    “incompatibleMessageText”：“此瀏覽器不支持服務工作者。”，
+    “activatedToggleText”：“禁用服務工作者”
+  },
+
+  "whatCanYouBuildTitle": "您可以用js-ipfs做什麼",
+
+  “whatArePeopleBuilding”：{
+    "sectionTitle": "看看大家正在使用它做什麼",
+    “清單”：[
+      {
+        "desc": "Paratii使用js-ipfs和以太坊合約構建了一套用於視頻流和內容管理的開源技術。Portal是一個網絡應用程序，用來管理運行在IPFS上的加密視頻。"
+      },
+      {
+        "desc": "去中心化的WeTransfer。Filenation利用IPFS提供了一種最簡單的文件分享方式，它允許您使用IPFS將文件作為鏈接發送到電子郵件。"
+      },
+      {
+        "desc": "去中心化的Internet Archive。支持訪問分佈式Web中超過四千萬份的存檔文件。使用內容種子網關和JavaScript編寫用戶界面，同時支持Firefox和Chrome。"
+      },
+      {
+        "desc": "PeerPad是一個運行在去中心化網絡上，基於IPFS和Y.js構建的可協作實時編輯器。所有參與節點可以實現點對點的直接通信，無需借助於中央服務或者第三方參與。 "
+      },
+      {
+        "desc": "IPFS web插件賦予了瀏覽器強大的功能。IPFS Companion是一個可用於Chrome，Firefox和Brave瀏覽器的插件，可讓您輕鬆訪問IPFS網絡。它還包含其它特有的功能，如文件共享和供Web開發人員使用的API。"
+      },
+      {
+        "desc": "[Orbit Chat](https://orbit.chat)是一個建立在OrbitDB之上的無服務器，分佈式，點對點聊天應用程序。 OrbitDB使用[IPFS](https://ipfs.io )作為其數據存儲，使用[IPFS Pubsub](https://ipfs.io/blog/29-js-ipfs-pubsub)和其它節點自動同步數據庫。"
+      }
+    ]
+  },
+
+  “whatYouCanBuild”：{
+    “sectionTitle”：“TODO Title”，
+    “sectionDesc”：“TODO描述。”，
+    “建議”：{
+      “text”：“”，
+      “linkText”：“”
+    }
+  },
+
+  “publicationsAndTalks”：{
+    "sectionTitle": "內容髮布和專題演講",
+    "sectionDesc": "查看IPFS社區關於JavaScript項目的最近更新，觀看演示和其它演講視頻。更多關於IPFS開發者會與的精彩演講內容會陸續在這裡發布。"
+  },
+
+  “社區”：{
+    "sectionTitle": "社區",
+    "sectionDesc": "js-ipfs是來自於IPFS社區的開源項目，使用了MIT許可協議。您可以通過多種方式為項目作出貢獻：編寫文檔、使用libp2p編寫應用和工具、創建示例和教程，加入我們的產品例會與我們一起討論libp2p。",
+    "socialNetworksText": "來吧，快來加入我們！"
+  },
+
+  “頁腳”：{
+    "rightContent": "js-ipfs項目已經啟動並由以下贊助商提供贊助",
+    "leftContent": "Protocol Labs| 除非另有說明，內容遵守CC-BY 3.0許可協議"
+  }
+}
